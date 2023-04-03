@@ -1,12 +1,15 @@
-import ProfileWidget from './sidebar/ProfileWidget';
-
+import UserBadge from './UserBadge';
+import ActionWidget from './sidebar/widgets/ActionWidget';
 import './Sidebar.scss'
 
 export default function Sidebar() {
     return (
     <div class="">
-        home
-        <ProfileWidget/>
+        <UserBadge/>
+        <ActionWidget/>
+        <ActionWidget/>
+        <ActionWidget/>
+        <ActionWidget/>
     </div>
     );
 };
